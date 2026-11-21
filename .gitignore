@@ -1,0 +1,30 @@
+# Build products
+/build/
+/dist/
+**/bin/
+**/obj/
+*.pdb
+
+# Private settings, SMS history, runtime discovery and atomic-write copies
+settings.json
+settings.tmp
+history.json
+history.tmp
+notifications.json
+notifications.tmp
+runtime.json
+runtime.tmp
+log.txt
+*.log
+/data/
+.env
+.env.*
+
+# Generated local launcher and audio
+launch.vbs
+chime.wav
+
+# Local assistant configuration
+/.claude/
+/.codex/
+/CLAUDE.md
